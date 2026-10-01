@@ -1,0 +1,16 @@
+{
+ "ocp_name": "clustertest",
+ "ocp_ntp_sources": ["1.1.1.1"],
+ "ocp_pxe_endpoint": "https://something",
+ "ocp_rendezvousIP": "1.1.1.1",
+ "dns": "1.1.1.1",
+ "gw": "10.0.0.1",
+ "nodes": [
+   { 
+     "hostname": "master1",
+     "role": "master",
+     "diskDeviceName": "/dev/sda1",
+     "mac": "xx:xx:xx:xx:xx:xx:xx"
+   }
+ ]
+}
